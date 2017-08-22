@@ -1,0 +1,112 @@
+/*
+Uploadify v2.1.0
+Release Date: August 24, 2009
+
+Copyright (c) 2009 Ronnie Garcia, Travis Nickels
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+.uploadifyQueueItem {
+	font: 11px Verdana, Geneva, sans-serif;
+	border: 2px solid #E5E5E5;
+	background-color: #F5F5F5;
+	margin-top: 5px;
+	padding: 10px;
+	width: 350px;
+}
+.uploadifyError {
+	border: 2px solid #FBCBBC !important;
+	background-color: #FDE5DD !important;
+}
+.uploadifyQueueItem .cancel {
+	float: right;
+}
+.uploadifyProgress {
+	background-color: #FFFFFF;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #C5C5C5;
+	border-bottom: 1px solid #C5C5C5;
+	margin-top: 10px;
+	width: 100%;
+}
+.uploadifyProgressBar {
+	background-color: #0099FF;
+	width: 1px;
+	height: 3px;
+}
+
+
+
+.upload-button{
+	text-align:center;
+	margin:20px 0;
+}
+#upload-results {
+	width:100%;
+	text-align:left;
+}
+#upload-results .uploaded-pic{
+	border:1px solid #CCCCCC;
+	margin:10px 0;
+	min-height:205px;
+	padding:10px;
+}
+#upload-results .uploaded-pic img {
+	float:left;
+	margin:0 10px 10px 0;
+}
+#upload-results .uploaded-pic ul{
+	list-style:none;
+	margin-top:4px;
+}
+
+#upload-results .uploaded-pic li{
+	list-style:none;
+	margin-top:4px;
+}
+.uploaded-controls{
+	display:none;
+}
+span.ui-icon {
+	left:0.2em;
+	margin:-8px 5px 0 0;
+	position:absolute;
+	top:50%;
+}
+.control-button {
+	padding:0.4em 1em 0.4em 20px;
+	position:relative;
+	text-decoration:none;
+}
+.uploaded-thumb {
+  width:205px !important;
+  height:205px !important;
+  border:1px solid #83BBD6;
+	overflow:hidden;
+	cursor:pointer;
+  float:left;
+  position:relative;
+  margin-right:10px;
+}
+
+.uploaded-thumb125{
+   width:105px !important;
+   height:105px !important;
+}

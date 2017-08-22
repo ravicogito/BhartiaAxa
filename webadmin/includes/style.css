@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+
+
+#access {display: block; margin:0 auto; width:100%;}
+#access .menu-header, div.menu {font-size: 13px; font-family: Verdana, Arial, Helvetica, sans-serif; margin-left: 12px; width: 1000px;}
+#access .menu-header ul, div.menu ul {list-style: none; margin:0px; padding:0px;}
+#access .menu-header li, div.menu li {float: left; position: relative; margin-right:1px;}
+#access a {color: #fff; display: block; line-height: 38px; padding: 0 10px; text-decoration: none; background:#0069C7; font-weight:600; font-size:11px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+/*................sub menu....................*/
+#access ul ul {display: none; position: absolute; top:38px; left: 0; float: left; width: 180px; z-index: 99999;}
+#access ul ul li {min-width: 180px;}
+#access ul ul ul {left: 100%; top: 0px;}
+#access ul ul a {background: #333; line-height: 1em; padding: 10px; width: 160px; height: auto; border-bottom:1px solid #fff; font-weight:normal; font-family: Verdana, Arial, Helvetica, sans-serif; margin-right:1px;}
+
+#access li a:hover, #access ul ul a:hover {background: gray; color: #fff;}
+#access ul li:hover > ul {display: block;}
+#access ul li a.current_page_item, #access ul li a.current-menu-ancestor, #access ul li a.current-menu-item, #access ul li a.current-menu-parent {
+color: #fff;}
+#access ul li.current_page_item a, #access ul li.current-menu-ancestor a, #access ul li.current-menu-item a, #access ul li.current-menu-parent a, #access ul li a:hover {color: #fff;}
+
+
+
+
+
